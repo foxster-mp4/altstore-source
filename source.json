@@ -1,6 +1,6 @@
 {
-    "name": "unc0ver",
-    "identifier": "science.xnu.undecimus",
+    "name": "Foxster's AltStore source",
+    "identifier": "me.foxster.altstore-source",
     "apps": [
       {
         "name": "unc0ver",
