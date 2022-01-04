@@ -52,6 +52,12 @@
         color: snow;
         background-color: #0069d9;
     }
+    #headerText {
+        font-weight: lighter;
+    }
+    #requirement {
+        font-weight: lighter;
+    }
 </style>
 <script>
     var num_clicks = 0;
@@ -62,15 +68,14 @@
             window.open("altstore://install?url=https://cdn.altstore.io/file/altstore/apps/altstore/1_5_b3.ipa", "_self");
         }
         document.getElementById("requirement").style.opacity = opacity -= 0.1;
-        document.getElementById("headerText").innerHTML = num_clicks;
     }
 </script>
 <body>
-    <div id="header" class="center">
-        <h1 id="headerText">Foxster's AltStore source</h1>
+    <div id="header" class="">
+        <h1 id="headerText">Foxster's <b>AltStore</b> source</h1>
     </div>
     <div id="body">
-        <h2 id="requirement">Requires <a href="#" onclick="clicked()" class="invisibleLink">AltStore beta</a> </h2>
+        <h2 id="requirement">Requires <a href="#" onclick="clicked()" class="invisibleLink"><b>AltStore beta</b></a> </h2>
         <a href="altstore://source?url=https://foxster-mp4.github.io/altstore-source/source.json" class="btn">Add source</a>
     </div>
 </body>
