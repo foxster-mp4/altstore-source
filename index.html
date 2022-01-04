@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foxster's AltStore source</title>
+    <title>Home</title>
 </head>
+<style>
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+        color: white;
+        background-color: rgb(71, 137, 132);
+        text-align: center;
+    }
+    .center {
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+    }
+    .invisibleLink:link {
+        color: white;
+        text-decoration: none;
+    }
+    .invisibleLink:visited {
+        color: white;
+        text-decoration: none
+    }
+    .btn {
+        font-family: Helvetica, Arial, sans-serif;
+        color: white;
+        background-color: #007bff;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        
+        user-select: none;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 8px;
+        transition:color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+    .btn:hover {
+        color: snow;
+        background-color: #0069d9;
+    }
+</style>
+<script>
+    var num_clicks = 0;
+    var opacity = 1
+    function clicked() {
+        num_clicks++;
+        if (num_clicks == 10) {
+            window.open("altstore://install?url=https://cdn.altstore.io/file/altstore/apps/altstore/1_5_b3.ipa", "_self");
+        }
+        document.getElementById("requirement").style.opacity = opacity -= 0.1;
+        document.getElementById("headerText").innerHTML = num_clicks;
+    }
+</script>
 <body>
-    Hello, World!
+    <div id="header" class="center">
+        <h1 id="headerText">Foxster's AltStore source</h1>
+    </div>
+    <div id="body">
+        <h2 id="requirement">Requires <a href="#" onclick="clicked()" class="invisibleLink">AltStore beta</a> </h2>
+        <a href="altstore://source?url=https://foxster-mp4.github.io/altstore-source/source.json" class="btn">Add source</a>
+    </div>
 </body>
 </html>

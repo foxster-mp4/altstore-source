@@ -12,14 +12,14 @@
         "versionDescription": "• Add exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\n• Fix exploit reliability on iPhone XS devices running iOS 14.6-14.8",
         "downloadURL": "https://unc0ver.dev/downloads/8.0.2/9e44edfbfd1905cadf23c3b9ad1d5bed683ce061/unc0ver_Release_8.0.2.ipa",
         "localizedDescription": "unc0ver is a jail​break, which means that you can have the freedom to do whatever you would like to do to your iOS device. Allowing you to change what you want and operate within your purview, unc0ver unlocks the true power of your iDevice.",
-        "iconURL": "https://raw.githubusercontent.com/foxster-mp4/altstore-source/master/resources/icon.jpg",
+        "iconURL": "https://raw.githubusercontent.com/foxster-mp4/altstore-source/master/resources/unc0ver/icon.jpg",
         "tintColor": "#8c8c8c",
         "size": 54489484,
         "screenshotURLs": [
-          "https://raw.githubusercontent.com/foxster-mp4/altstore-source/master/resources/screenshots/1.png",
-          "https://raw.githubusercontent.com/foxster-mp4/altstore-source/master/resources/screenshots/2.png",
-          "https://raw.githubusercontent.com/foxster-mp4/altstore-source/master/resources/screenshots/3.png",
-          "https://raw.githubusercontent.com/foxster-mp4/altstore-source/master/resources/screenshots/4.png"
+          "https://raw.githubusercontent.com/foxster-mp4/altstore-source/master/resources/unc0ver/1.png",
+          "https://raw.githubusercontent.com/foxster-mp4/altstore-source/master/resources/unc0ver/2.png",
+          "https://raw.githubusercontent.com/foxster-mp4/altstore-source/master/resources/unc0ver/3.png",
+          "https://raw.githubusercontent.com/foxster-mp4/altstore-source/master/resources/unc0ver/4.png"
         ]
       }
     ]
